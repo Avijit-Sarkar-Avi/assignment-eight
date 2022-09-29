@@ -1,5 +1,7 @@
 .sidebar {
     padding-left: 20px;
+    position: sticky;
+    top: 0;
 }
 
 .firstPart {

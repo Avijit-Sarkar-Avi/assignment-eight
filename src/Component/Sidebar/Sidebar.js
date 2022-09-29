@@ -1,7 +1,15 @@
 import React from 'react';
 import './Sidebar.css';
 import myPicture from '../../images/avijit_sarkar.jpg'
-const Sidebar = () => {
+const Sidebar = (props) => {
+    const { cart } = props;
+
+    let timer = 0;
+    for (const gymTime of cart) {
+        timer = timer + gymTime.time;
+    }
+
+
     return (
         <div className='sidebar'>
 
@@ -45,7 +53,7 @@ const Sidebar = () => {
             <h1>Exercise Details</h1>
 
             <div className='fourPart'>
-                <h2>Exercise Time:</h2>
+                <h2>Exercise Time: {timer}s</h2>
             </div>
             <br />
             <div className='fourPart'>

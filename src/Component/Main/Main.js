@@ -11,9 +11,9 @@ const Main = () => {
             .then(res => res.json())
             .then(data => setItems(data))
     }, [])
-    console.log([...cart])
-    const handleAddToCart = (items) => {
-        setCart([...cart, items])
+
+    const handleAddToCart = (item) => {
+        setCart([...cart, item])
     }
 
     return (
@@ -31,7 +31,7 @@ const Main = () => {
                 </div>
             </div>
             <div>
-                <Sidebar></Sidebar>
+                <Sidebar cart={cart}></Sidebar>
             </div>
         </div>
     );

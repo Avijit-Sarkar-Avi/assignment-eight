@@ -7,8 +7,11 @@ const Cart = (props) => {
             <img src={image} alt="" />
             <h3>{name}</h3>
             <p>{details}</p>
-            <h5>For Age: {age}</h5>
-            <h5>Time required: {time}s</h5>
+            <h4>For Age: {age}</h4>
+            <h4>Time required: {time}s</h4>
+            <button className='btn-cart'>
+                Add To Cart
+            </button>
         </div>
     );
 };

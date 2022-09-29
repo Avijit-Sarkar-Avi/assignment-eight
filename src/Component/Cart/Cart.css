@@ -1,4 +1,22 @@
 .cart img {
     width: 250px;
     height: 150px;
+    border-radius: 10px;
+}
+
+.cart {
+    height: 450px;
+    border: 3px solid white;
+    border-radius: 10px;
+    text-align: center;
+    background-color: white;
+}
+
+.btn-cart {
+    background-color: mediumseagreen;
+    color: white;
+    font-size: large;
+    border: none;
+    padding: 10px 50px;
+    border-radius: 10px;
 }

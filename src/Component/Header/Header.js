@@ -2,6 +2,7 @@ import React from 'react';
 import './Header.css';
 import logo from '../../images/logo.jpg';
 import Main from '../Main/Main';
+import Sidebar from '../Sidebar/Sidebar';
 const Header = () => {
     return (
         <div className='header'>
@@ -14,7 +15,7 @@ const Header = () => {
                 <Main></Main>
             </div>
             <div>
-                <h1>Sidebar</h1>
+                <Sidebar></Sidebar>
             </div>
         </div>
     );

@@ -1,0 +1,51 @@
+.sidebar {
+    padding-left: 20px;
+}
+
+.firstPart {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.firstPart img {
+    width: 30px;
+    height: 30px;
+}
+
+.secondPart {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    background-color: lightgray;
+    padding: 5px;
+}
+
+.thirdPart {
+    display: flex;
+    justify-content: space-between;
+    background-color: lightgray;
+    padding: 5px;
+}
+
+.thirdPart button {
+    border: 2px solid white;
+    background-color: white;
+    border-radius: 50%;
+    padding: 3px;
+    font-weight: bold;
+}
+
+.fourPart {
+    background-color: lightgray;
+    padding: 5px;
+}
+
+.btn-complete {
+    background-color: blueviolet;
+    color: white;
+    font-size: large;
+    border: none;
+    padding: 10px 50px;
+    border-radius: 10px;
+}

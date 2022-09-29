@@ -1,12 +1,15 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Sidebar.css';
 import myPicture from '../../images/avijit_sarkar.jpg'
 const Sidebar = (props) => {
+    const [breaks, setBreaks] = useState(0);
     const { cart } = props;
 
-    let timer = 0;
+    const handleBreakTime = setBreaks;
+
+    let times = 0;
     for (const gymTime of cart) {
-        timer = timer + gymTime.time;
+        times = times + gymTime.time;
     }
 
 
@@ -44,20 +47,20 @@ const Sidebar = (props) => {
             <h2>Add a Break</h2>
 
             <div className='thirdPart'>
-                <button>10s</button>
-                <button>20s</button>
-                <button>30s</button>
-                <button>40s</button>
-                <button>50s</button>
+                <button onClick={() => handleBreakTime(10)}>10s</button>
+                <button onClick={() => handleBreakTime(20)}>20s</button>
+                <button onClick={() => handleBreakTime(30)}>30s</button>
+                <button onClick={() => handleBreakTime(40)}>40s</button>
+                <button onClick={() => handleBreakTime(50)}>50s</button>
             </div>
             <h1>Exercise Details</h1>
 
             <div className='fourPart'>
-                <h2>Exercise Time: {timer}s</h2>
+                <h2>Exercise Time: {times}s</h2>
             </div>
             <br />
             <div className='fourPart'>
-                <h2>Break Time: </h2>
+                <h2>Break Time: {breaks}</h2>
             </div>
 
             <br />

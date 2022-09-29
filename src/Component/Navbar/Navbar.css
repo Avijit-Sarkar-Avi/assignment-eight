@@ -8,3 +8,14 @@
     align-items: center;
     color: grey;
 }
+
+@media screen and (max-width: 668px) {
+    .flexible {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+}

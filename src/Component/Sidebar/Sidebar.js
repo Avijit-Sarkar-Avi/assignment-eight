@@ -56,11 +56,11 @@ const Sidebar = (props) => {
             <h1>Exercise Details</h1>
 
             <div className='fourPart'>
-                <h2>Exercise Time: {times}s</h2>
+                <h2>Time: {times} second</h2>
             </div>
             <br />
             <div className='fourPart'>
-                <h2>Break Time: {breaks}</h2>
+                <h2>Break Time: {breaks} second</h2>
             </div>
 
             <br />

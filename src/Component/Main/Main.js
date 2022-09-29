@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Cart from '../Cart/Cart';
 import Navbar from '../Navbar/Navbar';
+import Qa from '../QuastionAnswer/Qa';
 import Sidebar from '../Sidebar/Sidebar';
 import './Main.css'
 const Main = () => {
@@ -17,22 +18,25 @@ const Main = () => {
     }
 
     return (
-        <div className='header'>
-            <div>
-                <Navbar></Navbar>
-                <div className='main'>
-                    {
-                        items.map(item => <Cart
-                            key={item.id}
-                            item={item}
-                            handleAddToCart={handleAddToCart}
-                        ></Cart>)
-                    }
+        <div>
+            <div className='header'>
+                <div>
+                    <Navbar></Navbar>
+                    <div className='main'>
+                        {
+                            items.map(item => <Cart
+                                key={item.id}
+                                item={item}
+                                handleAddToCart={handleAddToCart}
+                            ></Cart>)
+                        }
+                    </div>
+                </div>
+                <div>
+                    <Sidebar cart={cart}></Sidebar>
                 </div>
             </div>
-            <div>
-                <Sidebar cart={cart}></Sidebar>
-            </div>
+            <Qa></Qa>
         </div>
     );
 };

@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "name": "Dumble",
+        "details": "Dumbbells are small bars that fit in your hand and have equal weights on either side.",
+        "age": "20-30",
+        "time": 50,
+        "image": "https://cdn.pixabay.com/photo/2017/08/07/14/02/man-2604149__340.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Batting Rope",
+        "details": "Unilateral waves. Start with your feet hip-width apart, holding one rope in each hand.",
+        "age": "20-35",
+        "time": 40,
+        "image": "https://img.freepik.com/free-photo/young-healthy-man-athlete-doing-exercise-with-ropes-gym-single-male-model-practicing-hard-training-his-upper-body-concept-healthy-lifestyle-sport-fitness-bodybuilding-wellbeing_155003-27879.jpg?w=2000"
+    },
+    {
+        "id": 3,
+        "name": "One-Arm Hang",
+        "details": "Place a chair at the bottom of a horizontal bar. Stand on the chair with our chin above the bar.",
+        "age": "18-38",
+        "time": 45,
+        "image": "https://images.unsplash.com/photo-1526506118085-60ce8714f8c5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Z3ltfGVufDB8fDB8fA%3D%3D&w=1000&q=80"
+    },
+    {
+        "id": 4,
+        "name": "Folding Treadmills",
+        "details": "Treadmill exercising machines are well known and basically consist of a relatively wide endless belt.",
+        "age": "22-60",
+        "time": 30,
+        "image": "https://media.gettyimages.com/photos/view-of-a-row-of-treadmills-in-a-gym-with-people-picture-id1183038884?s=612x612"
+    },
+    {
+        "id": 5,
+        "name": "Yoga",
+        "details": "To begin meditating, find a place where you can sit comfortably and quietly.",
+        "age": "10-80",
+        "time": 60,
+        "image": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/afro-american-couple-doing-yoga-royalty-free-image-598708752-1548713240.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Stability Ball",
+        "details": "Get in a high-plank position with your hands directly underneath your shoulders and your shins on top of a stability ball.",
+        "age": "10-70",
+        "time": 20,
+        "image": "https://www.muscleandfitness.com/wp-content/uploads/2017/10/crunch-situp-medicine-ball.jpg?quality=86&strip=all"
+    }
+]

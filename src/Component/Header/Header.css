@@ -1,0 +1,15 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flexible img {
+    width: 200px;
+    height: 200px;
+}
+
+.flexible {
+    display: flex;
+    align-items: center;
+    color: grey;
+}

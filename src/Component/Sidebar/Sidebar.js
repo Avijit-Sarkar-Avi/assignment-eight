@@ -6,6 +6,9 @@ const Sidebar = (props) => {
     const { cart } = props;
 
     const handleBreakTime = setBreaks;
+    localStorage.setItem(breaks, 1)
+
+
 
     let times = 0;
     for (const gymTime of cart) {

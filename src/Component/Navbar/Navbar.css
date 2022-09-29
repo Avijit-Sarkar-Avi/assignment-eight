@@ -1,9 +1,3 @@
-.header {
-    display: flex;
-    justify-content: space-between;
-    padding: 40px;
-}
-
 .flexible img {
     width: 200px;
     height: 200px;

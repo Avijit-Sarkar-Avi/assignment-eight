@@ -5,3 +5,9 @@
     background-color: lightgray;
     padding: 20px;
 }
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
